@@ -1,5 +1,5 @@
-import React from "react";
-import "./styles/global.css";
+import React from 'react';
+import './styles/global.css';
 
 const App: React.FC = () => (
   <>
