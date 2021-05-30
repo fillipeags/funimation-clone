@@ -21,7 +21,7 @@
 
 nav {
   color: var(--purple);
-  font-weight: bold;
+  font-weight: 700;
   display: flex;
   flex: 1;
   margin-left: 5rem;
@@ -44,15 +44,17 @@ nav {
 
   button {
     margin: .6rem;
-    padding: 0.8rem 0.8rem;
+    padding: 0.5rem 1rem;
     border: none;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
     background: none;
   }
 
   #btn1 {
     background: var(--yellow);
-    border-radius: 0.2rem;
+    border-radius: 0.25rem;
 
     &:hover{
       opacity: 0.8;
