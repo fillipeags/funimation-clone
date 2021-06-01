@@ -15,19 +15,16 @@
 
   h1,span {
     font-family: 'Open Sans';
-    font-size: 68px;
+    font-size: 59px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    line-height: 5.8rem;
+    line-height: 4.4rem;
     font-weight: bolder;
     color: var(--white);
     letter-spacing: -.6px;
 
-    span {
-      font-size: 108px;
-    }
   }
 
   p {
@@ -37,7 +34,7 @@
     line-height: 32px;
     color: var(--white);
     text-align: center;
-    margin: 0px 6rem 1.25rem;
+    margin: 0px 4rem 1.25rem;
     padding-top: 1rem;
 
   }
