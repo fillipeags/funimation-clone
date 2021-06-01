@@ -1,5 +1,6 @@
 import styles from './styles.module.scss';
 import imgSempreMaisAnime from '../../assets/funimationCTA.png';
+import '../../styles/global.scss';
 
 const Cta: React.FC = () => {
   return (

@@ -1,17 +1,17 @@
 .cardlistContainer  {
-
   padding: 0 calc(3.5vw + 24px);
   width: 100%;
 
-  h1 {
-  font-size: 20px;
-  color: var(--white);
-  font-weight: bold;
-  letter-spacing: .25px;
-  line-height: 1.4em;
-  margin-bottom: -10px;
-  padding-left: 20px;
-}
+    h1 {
+      font-family: 'Open Sans';
+      font-size: 20px;
+      color: var(--white);
+      font-weight: bold;
+      letter-spacing: .25px;
+      line-height: 1.4rem;
+      margin-bottom: -1.25rem;
+    }
+    padding-bottom: 0.625rem;
 
 }
 
@@ -21,11 +21,21 @@
   display: flex;
 
   img {
-    margin-left: 2rem;
     width: 180px;
-    height: 270px;
-    border-radius: 0px;
+    height: 280px;
+    border-radius: 0.6rem;
+    transition: .3s ease-out;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: .3s ease-in;
+    }
+
   }
 
+  img:not(:first-child){
+    margin-left: 20px;
+  }
 }
 

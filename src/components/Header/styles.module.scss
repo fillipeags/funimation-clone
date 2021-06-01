@@ -20,6 +20,7 @@
 }
 
 nav {
+  font-family: 'Open Sans';
   color: var(--purple);
   font-weight: 700;
   display: flex;
@@ -53,6 +54,7 @@ nav {
   }
 
   #btn1 {
+    font-family: 'Open Sans';
     background: var(--yellow);
     border-radius: 0.25rem;
 
@@ -64,6 +66,7 @@ nav {
   }
 
   #btn2 {
+    font-family: 'Open Sans';
     color: var(--purple);
 
     &:hover{
