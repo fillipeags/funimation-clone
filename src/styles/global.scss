@@ -2,13 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 24px;
 }
 
 body {
   background: var(--white);
+  background: rgb(56,1,133);
+  background: linear-gradient(180deg, rgba(56,1,133,1) 0%, rgba(46,1,110,1) 25%, rgba(33,0,78,1) 43%, rgba(28,0,68,1) 55%, rgba(21,0,51,1) 100%);
+
+  font-family: 'Open Sans', sans-serif;
+
+  max-width: 100vw;
+  height: 100vh;
 }
 
 :root {
@@ -47,3 +53,4 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
