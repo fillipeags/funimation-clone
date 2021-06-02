@@ -1,6 +1,7 @@
 import { FiSearch } from 'react-icons/fi';
 import styles from './styles.module.scss';
 import logo from '../../assets/logo.svg';
+import '../../styles/global.scss';
 
 const Header: React.FC = () => {
   return (
