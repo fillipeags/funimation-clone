@@ -1,12 +1,17 @@
+.wrapper {
+  background: linear-gradient(180deg, #390087 0%, #33007d 25%, #310075 43%, #290062 55%, #0e0021 100%)
+}
+
 .mainContent {
   background-image: url('../../assets/bgImage.png');
+
   background-position:  center bottom;
   background-size: cover;
 
 
   margin: 0 4rem 4rem 4rem;
   padding: 6rem;
-  padding-top: 12rem;
+  padding-top: 8rem;
 
   display: flex;
   flex-direction: column;

@@ -4,7 +4,7 @@ import '../../styles/global.scss';
 
 const Bottom: React.FC = () => {
   return (
-    <>
+    <div className={styles.wrapper}>
       <div className={styles.mainContent}>
         <h1>
           Animes Sem Anúncios <span>com Premium Plus </span>por 24,90 ao mês
@@ -20,7 +20,7 @@ const Bottom: React.FC = () => {
 
         <img src={imgSempreMaisAnime} alt="" />
       </div>
-    </>
+    </div>
   );
 };
 

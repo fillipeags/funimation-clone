@@ -1,0 +1,41 @@
+.Container {
+  color: var(--white);
+  text-transform: uppercase;
+
+  margin: 0 4rem 4rem 4rem;
+
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  font-family: 'Open Sans';
+
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 14px;
+  padding-bottom: 2rem;
+
+  a:hover {
+    color: var(--red);
+  }
+}
+
+.foFooter{
+
+  padding-bottom: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+
+    font-family: 'Open Sans';
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 12px;
+  }
+}
