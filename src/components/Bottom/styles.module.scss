@@ -71,3 +71,22 @@
     max-width: 100%;
   }
 }
+
+@media (max-width: 425px) {
+  .mainContent {
+    h1 , span{
+      font-size: 50px;
+      text-align: center;
+    }
+
+    p {
+      margin: 0px -8rem 1.25rem;
+    }
+
+    button {
+      padding: 1rem 0rem !important;
+    }
+
+
+  }
+}

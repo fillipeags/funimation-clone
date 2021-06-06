@@ -39,3 +39,18 @@
     line-height: 12px;
   }
 }
+
+@media (max-width: 425px) {
+  .links {
+    align-items: center;
+  }
+
+  .foFooter {
+    flex-direction: column;
+
+    p {
+      padding-top: 20px;
+      font-size: 8px;
+    }
+  }
+}

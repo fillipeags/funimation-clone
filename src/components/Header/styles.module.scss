@@ -83,3 +83,14 @@ nav {
   color: var(--purple);
   cursor: pointer;
 }
+
+@media (max-width: 991px){
+  #btn1{
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+}
+
