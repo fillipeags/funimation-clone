@@ -12,7 +12,7 @@
       letter-spacing: .25px;
       line-height: 1.4rem;
       margin-bottom: -2rem;
-      margin-left: 20px;
+      margin-left: 24px;
 
     }
     padding-bottom: 0.625rem;
@@ -37,12 +37,14 @@
     &:hover {
       transform: scale(1.05);
       transition: .3s ease-in;
-    }
 
+    }
   }
+
 }
 
 
 .CardItem{
   padding-top: 20px;
+  padding-left: 0.4rem;
 }
