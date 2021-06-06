@@ -6,6 +6,60 @@ import styles from './styles.module.scss';
 import '../../styles/global.scss';
 
 const CardsList: React.FC = () => {
+  const settings = {
+    infinite: true,
+    speed: 600,
+    slidesToShow: 6,
+    sliesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1366,
+        settings: {
+          infinite: true,
+          speed: 600,
+          slidesToShow: 6,
+          sliesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1330,
+        settings: {
+          infinite: true,
+          speed: 600,
+          slidesToShow: 5,
+          sliesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1160,
+        settings: {
+          infinite: true,
+          speed: 600,
+          slidesToShow: 4,
+          sliesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 925,
+        settings: {
+          infinite: true,
+          speed: 600,
+          slidesToShow: 3,
+          sliesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 425,
+        settings: {
+          infinite: true,
+          speed: 600,
+          slidesToShow: 1,
+          sliesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <div className={styles.cardlistContainer}>
@@ -14,11 +68,9 @@ const CardsList: React.FC = () => {
 
         <section>
           <Slider
-            infinite
-            speed={500}
-            slidesToShow={6}
-            slidesToScroll={6}
             className={styles.SwiperCards}
+            // eslint-disable-next-line react/jsx-props-no-spreading
+            {...settings}
           >
             {animes.map(anime => (
               <div className={styles.CardItem}>
@@ -33,11 +85,9 @@ const CardsList: React.FC = () => {
 
         <section>
           <Slider
-            infinite
-            speed={500}
-            slidesToShow={6}
-            slidesToScroll={6}
             className={styles.SwiperCards}
+            // eslint-disable-next-line react/jsx-props-no-spreading
+            {...settings}
           >
             {animes.map(anime => (
               <div className={styles.CardItem}>
@@ -52,11 +102,9 @@ const CardsList: React.FC = () => {
 
         <section>
           <Slider
-            infinite
-            speed={500}
-            slidesToShow={6}
-            slidesToScroll={6}
             className={styles.SwiperCards}
+            // eslint-disable-next-line react/jsx-props-no-spreading
+            {...settings}
           >
             {animes.map(anime => (
               <div className={styles.CardItem}>
@@ -71,11 +119,9 @@ const CardsList: React.FC = () => {
 
         <section>
           <Slider
-            infinite
-            speed={500}
-            slidesToShow={6}
-            slidesToScroll={6}
             className={styles.SwiperCards}
+            // eslint-disable-next-line react/jsx-props-no-spreading
+            {...settings}
           >
             {animes.map(anime => (
               <div className={styles.CardItem}>
@@ -90,11 +136,9 @@ const CardsList: React.FC = () => {
 
         <section>
           <Slider
-            infinite
-            speed={500}
-            slidesToShow={6}
-            slidesToScroll={6}
             className={styles.SwiperCards}
+            // eslint-disable-next-line react/jsx-props-no-spreading
+            {...settings}
           >
             {animes.map(anime => (
               <div className={styles.CardItem}>
@@ -109,11 +153,9 @@ const CardsList: React.FC = () => {
 
         <section>
           <Slider
-            infinite
-            speed={500}
-            slidesToShow={6}
-            slidesToScroll={6}
             className={styles.SwiperCards}
+            // eslint-disable-next-line react/jsx-props-no-spreading
+            {...settings}
           >
             {animes.map(anime => (
               <div className={styles.CardItem}>
