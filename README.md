@@ -1,4 +1,5 @@
 # Funimation Clone
+![Funimation-Clone](./src/assets/Funimation_2016.svg.png)
 
 ### In the project directory, you can run:
 ### `yarn start`
